@@ -1,0 +1,90 @@
+/* .navbar{
+   margin:0;
+   overflow: auto;
+} */
+
+svg {
+  font: 12px sans-serif;
+}
+
+.axis,
+.frame {
+  shape-rendering: crispEdges;
+}
+
+.axis line {
+  stroke: #999;
+}
+
+
+.axis text {
+  /* stroke: black; */
+  fill: black;
+}
+
+.cell text {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 15px;
+  fill: #222;
+}
+
+.frame {
+  fill: none;
+  stroke: #aaa;
+}
+
+.diagonal {
+  stroke: none;
+  fill: #fff;
+  fill-opacity: 0.8;
+}
+
+circle {
+  fill-opacity: .7;
+}
+
+circle.hidden {
+  fill: #ccc !important;
+}
+
+ .extent {
+  fill: #000;
+  fill-opacity: .125;
+  stroke: #fff;
+}
+
+.background path {
+	fill: none;
+	stroke: #ddd;
+	shape-rendering: crispEdges;
+}
+
+.foreground path {
+	fill: none;
+}
+/*
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+} */
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move;
+}
+
+
+
+
+/* .navbar a {
+  width: 25%;
+  text-align: center;
+} */
